@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express()
-app.set('port', (process.env.PORT || 5000));
+var port = process.env.PORT || 1337;
+app.set('port', port);
 
 app.post('/duoPasscode', function (req, res) {
     res.send('POST request to the homepage');
@@ -9,4 +10,4 @@ app.post('/duoPasscode', function (req, res) {
 
 app.get('/', (req, res) => res.send('Hello World!'))
 
-app.listen(3000, () => console.log('Example app listening on port 3000!'))
+app.listen(port, () => console.log('Example app listening on port'))
