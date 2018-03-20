@@ -5,7 +5,7 @@ app.set('port', port);
 
 app.post('/duoPasscode', function (req, res) {
     res.send('POST request to the homepage');
-    console.log(req.query.code);
+    console.log(req.query.body);
 })
 
 app.get('/', (req, res) => res.send('Hello World!'))
