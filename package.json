@@ -1,0 +1,24 @@
+{
+  "name": "iuclassified",
+  "version": "1.0.0",
+  "description": "a little project",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielchangsoojones/iuClassified.git"
+  },
+  "author": "Daniel jones",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielchangsoojones/iuClassified/issues"
+  },
+  "homepage": "https://github.com/danielchangsoojones/iuClassified#readme"
+}
